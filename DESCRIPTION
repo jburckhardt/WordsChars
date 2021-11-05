@@ -1,13 +1,18 @@
 Package: WordsChars
-Title: What the Package Does (One Line, Title Case)
+Title: Counts characters and words on a string
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Juan", "Burckhardt", , "jburckha@student.ubc.ca", role = c("aut", "cre"))
+Description: This package allows you to count the number of characters and words in a given string.
+    You can also decide weather you want to count spaces as character or not. When given a string, you will
+    get a vector in return whose first element is the number of characters and second element is the number of words.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.1
+RoxygenNote: 7.1.2
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    magrittr
