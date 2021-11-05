@@ -16,3 +16,5 @@ Suggests:
 Config/testthat/edition: 3
 Imports: 
     magrittr
+URL: https://github.com/jburckhardt/WordsChars
+BugReports: https://github.com/jburckhardt/WordsChars/issues
