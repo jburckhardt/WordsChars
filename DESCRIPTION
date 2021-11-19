@@ -1,6 +1,6 @@
 Package: WordsChars
 Title: Counts characters and words on a string
-Version: 0.0.0.9000
+Version: 0.1.0
 Authors@R: 
     person("Juan", "Burckhardt", , "jburckha@student.ubc.ca", role = c("aut", "cre"))
 Description: This package allows you to count the number of characters and words in a given string.
